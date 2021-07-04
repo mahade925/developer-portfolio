@@ -12,9 +12,13 @@ span {
 }
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 .half1-width, .half2-width {
     width: 50%;
+}
+.half3-width, .half4-width {
+    width: 50%
 }
 .half1-width{
     padding-top: 10%;
@@ -25,7 +29,15 @@ section {
     padding-left: 7%;
     padding-top: 11%;
 }
-.half1-width a {
+.half3-width img {
+    width: 80%;
+    padding-left: 10%;
+}
+.half4-width {
+    padding-left: 10%;
+    padding-top: 5%; 
+}
+.link-btn {
     text-decoration: none;
     padding: 10px 40px;
     color: aliceblue;
@@ -37,4 +49,9 @@ section {
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
